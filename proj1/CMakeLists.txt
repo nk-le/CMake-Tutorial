@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.9)
 
+set( CMAKE_CXX_COMPILER "C:/Qt/Tools/mingw810_64/bin/g++.exe" )
+set( CMAKE_C_COMPILER "C:/Qt/Tools/mingw810_64/bin/gcc.exe" )
+
 project(myCoolProj
-        VERSION 1.0
         LANGUAGES CXX)
 
 if(NOT WIN32)
@@ -37,6 +39,9 @@ target_compile_definitions(myCoolProj PRIVATE USE_NEW_AUDIO_ENGINE)
 target_compile_options(myCoolProj PRIVATE -Wall -Wextra -Wpedantic)
 
 
+add_custom_target(libvz
+                  /usr/bin/make -f "${CMAKE_CURRENT_SOURCE_DIR}/libvz/Makefile")
+
 #dependency management
 find_library(LIBRARY_SDL sdl)
 if (LIBRARY_SDL)
@@ -50,10 +55,10 @@ endif()
 find_package(SDL)
 
 # OS specific code
-if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
-    target_compile_options(myCoolProj PRIVATE /W4)
-elseif (CMAKE_SYSTEM_NAME STREQUAL "Linux")
-    target_compile_options(myCoolProj PRIVATE -Wall -Wextra -Wpedantic)
-elseif (CMAKE_SYSTEM_NAME STREQUAL "Darwin")
-    # other macOS-specific flags for Clang
-endif()
+# if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
+#     target_compile_options(myCoolProj PRIVATE /W4)
+# elseif (CMAKE_SYSTEM_NAME STREQUAL "Linux")
+#     target_compile_options(myCoolProj PRIVATE -Wall -Wextra -Wpedantic)
+# elseif (CMAKE_SYSTEM_NAME STREQUAL "Darwin")
+#     # other macOS-specific flags for Clang
+# endif()
