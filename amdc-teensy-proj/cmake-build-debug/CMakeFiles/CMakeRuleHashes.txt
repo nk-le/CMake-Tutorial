@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+44d333d2cfa4f639a97936955f295f11 examples/test1/CMakeFiles/mainTest1_hex
+8d72a8f75f368520465f97a431653e60 examples/test1/mainTest1.hex

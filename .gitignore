@@ -1,0 +1,7 @@
+*\build
+*.vscode
+Tools\*
+Tools
+*\cmake-build-debug\*
+*.d 
+*.hex

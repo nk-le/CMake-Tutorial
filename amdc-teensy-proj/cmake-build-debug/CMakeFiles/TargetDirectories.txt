@@ -1,0 +1,9 @@
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/CMakeFiles/cores.o.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/examples/CMakeFiles/edit_cache.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/examples/CMakeFiles/rebuild_cache.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/examples/test1/CMakeFiles/mainTest1.elf.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/examples/test1/CMakeFiles/mainTest1_hex.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/examples/test1/CMakeFiles/edit_cache.dir
+C:/Users/nkle/ws/repos/CMake-Tutorial/amdc-teensy-proj/cmake-build-debug/examples/test1/CMakeFiles/rebuild_cache.dir
